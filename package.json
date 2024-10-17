@@ -1,0 +1,21 @@
+{
+  "name": "unisat",
+  "version": "1.0.0",
+  "author": "t.me/sybilwave",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node modules/index.ts"
+  },
+  "dependencies": {
+    "axios": "^1.7.3",
+    "bip32": "^4.0.0",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^6.1.6",
+    "ecpair": "^2.1.0",
+    "inquirer": "^10.1.6",
+    "tiny-secp256k1": "^2.2.3",
+    "typescript": "^5.5.4",
+    "winston": "^3.13.1"
+  }
+}
